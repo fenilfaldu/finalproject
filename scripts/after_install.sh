@@ -25,6 +25,6 @@ aws ecr get-login-password --region ap-northeast-3 | docker login --username AWS
 # Pull the Docker image from Amazon ECR (if needed)
 sudo docker pull 975050285398.dkr.ecr.ap-northeast-3.amazonaws.com/finalproject:latest
 # Build and start the Docker Compose services
-sudo docker-compose up -d
+sudo docker-compose up 
 
 # Docker Done!
