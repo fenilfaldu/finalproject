@@ -6,7 +6,7 @@ export default function Main() {
   const [prompt,setPromt] = useState()
   const [img,setImg] = useState()
 
-  const openai = new OpenAI({apiKey:"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", dangerouslyAllowBrowser: true})
+
   const generate=async()=>{
     // const image = await openai.images.generate({
 
