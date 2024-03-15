@@ -4,7 +4,7 @@
 sudo pkill -f runserver
 
 # Change directory to the Django project root
-cd /home/ubuntu/Django-Training/
+cd /home/ubuntu/fenilfaldu/finalproject
 
 # Install the AWS CLI
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
