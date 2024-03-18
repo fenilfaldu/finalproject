@@ -16,9 +16,6 @@ aws --version
 # aws configure  # Uncomment this line if you need to configure AWS CLI
 
 # Set AWS credentials and region (consider using secure methods)
-export AWS_ACCESS_KEY_ID=AKIA6GBMGUFLH3MCLCPI
-export AWS_SECRET_ACCESS_KEY=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
-export AWS_DEFAULT_REGION=ap-northeast-3
 
 # Log in to Amazon ECR registry
 aws ecr get-login-password --region ap-northeast-3 | docker login --username AWS --password-stdin 975050285398.dkr.ecr.ap-northeast-3.amazonaws.com
